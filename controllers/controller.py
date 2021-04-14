@@ -11,13 +11,15 @@ def result (operator, number_1, number_2):
     int_2 = int(number_2)
 
     if operator == "add":
-        return calculator.add(int_1, int_2)
+        return f"{calculator.add(int_1, int_2)}"
     elif operator == "subtract":
-        return calculator.substract(int_1, int_2)
+        sub = calculator.subract(int_1, int_2)
+        return str(sub)
+        # return f"{calculator.substract(int_1, int_2)}"
     elif operator == "multiply":
-        return calculator.multiply(int_1, int_2)
+        return f"{calculator.multiply(int_1, int_2)}"
     elif operator == "divide":
-        return calculator.divide(int_1, int_2)
+        return f"{calculator.divide(int_1, int_2)}"
     else:
         return None
 
