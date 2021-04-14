@@ -13,9 +13,9 @@ def result (operator, number_1, number_2):
     if operator == "add":
         return f"{calculator.add(int_1, int_2)}"
     elif operator == "subtract":
-        sub = calculator.subract(int_1, int_2)
+        sub = calculator.subtract(int_1, int_2)
         return str(sub)
-        # return f"{calculator.substract(int_1, int_2)}"
+        # return f"{calculator.subtract(int_1, int_2)}"
     elif operator == "multiply":
         return f"{calculator.multiply(int_1, int_2)}"
     elif operator == "divide":
